@@ -11,20 +11,20 @@ By Corey M Schafer [link][1]
  4. `git status `
  5. `git ignore `
  6. `git add -A`
- 7. `git reset`
- 8. `git commit -m “…” `
- 9. `git log `
+ 7. `git reset` also --soft,--hard
+ 8. `git commit -m "<commit message>" `
+ 9. `git log`
  10. `git remote -v `
- 11. `git branch -a :lists local and remote branches `
- 12. `git diff `
+ 11. `git branch -a ' : lists local and remote branches
+ 12. `git diff <commit_1> <commit_2>` : Difference between 2 commits
  13. `git pull origin master `
  14. `git push origin master `
- 15. `git branch `
- 16. `git branch `
- 17. `git checkout `
- 18. `git merge  `
- 19. `git branch -d `
- 20. `git push --delete origin `
+ 15. `git branch ` : Lists all the branches locally
+ 16. `git branch <branch_name>` : Creates new branch
+ 17. `git checkout <branch_name>`
+ 18. `git merge  <branch_name>`
+ 19. `git branch -d <branch_name>`
+ 20. `git push --delete origin <branch_name>`
 
 ### Video 2/6:
 
